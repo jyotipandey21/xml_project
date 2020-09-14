@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="19614" started-at="2020-08-22T20:30:31Z" finished-at="2020-08-22T20:30:50Z">
+    <groups>
+    </groups>
+    <test name="Customertest" duration-ms="19614" started-at="2020-08-22T20:30:31Z" finished-at="2020-08-22T20:30:50Z">
+      <class name="Test.CustomerTest">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.CustomerTest@5bcea91b]" name="launchbrowser" is-config="true" duration-ms="8826" started-at="2020-08-22T20:30:31Z" finished-at="2020-08-22T20:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="logincus(java.lang.String, java.lang.String)[pri:1, instance:Test.CustomerTest@5bcea91b]" name="logincus" duration-ms="2251" started-at="2020-08-22T20:30:40Z" finished-at="2020-08-22T20:30:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@techfios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincus -->
+        <test-method status="PASS" signature="addcustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Test.CustomerTest@5bcea91b]" name="addcustomer" duration-ms="8489" started-at="2020-08-22T20:30:42Z" finished-at="2020-08-22T20:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jyoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Techfios]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jyoti@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[214-550-0949]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75038,meadowcreek,macathur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Irving]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[texas]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[75038]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcustomer -->
+      </class> <!-- Test.CustomerTest -->
+    </test> <!-- Customertest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

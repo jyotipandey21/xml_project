@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite">
+
+	<test name="Customertest">
+	
+		<parameter name="Username" value="demo@techfios.com" />
+
+		<parameter name="Password" value="abc123" />
+		<parameter name="Name" value="jyoti" />
+		<parameter name="Company1" value="Techfios" />
+		<parameter name="Email" value="jyoti@gmail.com" />
+		<parameter name="Phone" value="214-550-0949" />
+		<parameter name="Address" value="75038,meadowcreek,macathur" />
+		<parameter name="City" value="Irving" />
+		<parameter name="State" value="texas" />
+		<parameter name="Zip" value="75038" />
+		<classes>
+			<class name="Test.CustomerTest" />
+
+		</classes>
+	</test>
+</suite>

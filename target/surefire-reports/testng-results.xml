@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test.LoginTest" duration-ms="12870" started-at="2020-08-03T00:31:35Z" finished-at="2020-08-03T00:31:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12870" started-at="2020-08-03T00:31:35Z" finished-at="2020-08-03T00:31:48Z">
+      <class name="Test.LoginTest">
+        <test-method status="PASS" signature="browser()[pri:0, instance:Test.LoginTest@531be3c5]" name="browser" is-config="true" duration-ms="10194" started-at="2020-08-03T00:31:35Z" finished-at="2020-08-03T00:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="page()[pri:0, instance:Test.LoginTest@531be3c5]" name="page" duration-ms="2644" started-at="2020-08-03T00:31:45Z" finished-at="2020-08-03T00:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Test.LoginTest -->
+</testng-results>
