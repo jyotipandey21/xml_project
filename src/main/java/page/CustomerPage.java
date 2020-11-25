@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import Util.basepage;
+
 public class CustomerPage {
 	WebDriver driver;
 
@@ -55,6 +57,8 @@ public class CustomerPage {
 	WebElement importContact;
 
 	public void CustomerElement() throws InterruptedException {
+		 System.out.println("The thread ID "+ Thread.currentThread().getId());
+
 		basepage.waitforElement(driver, 60, By.linkText("Customers"));
 		
 		Customers_Locator.click();
@@ -75,7 +79,7 @@ public class CustomerPage {
 
 	public void Full_name(String name) {
 		basepage.waitforElement(driver, 60, By.xpath("//input[@id='account']"));
-		String FullName = name + basepage.randomNumGenerator1("//input[@id='account']", "Full Name");
+		//String FullName = name + basepage.randomNumGenerator1("//input[@id='account']", "Full Name");
 		Name.sendKeys(name);
 	}
 
@@ -85,12 +89,12 @@ public class CustomerPage {
 	}
 
 	public void emailElement(String email) {
-		String emailElement = basepage.randomNumGenerator1("//input[@id='email']", "Email") + email;
+		//String emailElement = basepage.randomNumGenerator1("//input[@id='email']", "Email") + email;
 		Email.sendKeys(email);
 	}
 
 	public void Phone_Element(String phone) {
-		String Phone_Element = basepage.randomNumGenerator1("//input[@id='phone']", "Phone") + phone;
+		//String Phone_Element = basepage.randomNumGenerator1("//input[@id='phone']", "Phone") + phone;
 		Phone.sendKeys(phone);
 	}
 
@@ -107,7 +111,7 @@ public class CustomerPage {
 	}
 
 	public void Zip_Element(String zip) {
-		String Zip_Element = zip+basepage.randomNumGenerator1("//input[@id='zip']", "Zip");
+	//	String Zip_Element = zip+basepage.randomNumGenerator1("//input[@id='zip']", "Zip");
 		Zip.sendKeys(zip);
 	}
 

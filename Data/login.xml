@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite">
-
-	<test name="Customertest">
+<suite name="TestSuite"  parallel = "methods"  thread-count = "2" >
+ <test name="Customertest" > 
 	
 		<parameter name="Username" value="demo@techfios.com" />
-
 		<parameter name="Password" value="abc123" />
 		<parameter name="Name" value="jyoti" />
 		<parameter name="Company1" value="Techfios" />

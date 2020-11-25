@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestSuite]">
-  <test thread-count="5" name="Customertest(failed)">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="2" name="Customertest(failed)" parallel="methods">
     <parameter name="Zip" value="75038"/>
     <parameter name="Email" value="jyoti@gmail.com"/>
     <parameter name="Address" value="75038,meadowcreek,macathur"/>
@@ -9,7 +9,7 @@
     <parameter name="Phone" value="214-550-0949"/>
     <parameter name="State" value="texas"/>
     <parameter name="City" value="Irving"/>
-    <parameter name="Company1" value="tech.com"/>
+    <parameter name="Company1" value="Techfios"/>
     <parameter name="Password" value="abc123"/>
     <parameter name="Name" value="jyoti"/>
     <classes>

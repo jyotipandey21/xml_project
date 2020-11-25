@@ -8,23 +8,23 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Util.Browser;
-import page.CustomerPage;
 import page.LoginPage;
 
 public class LoginTest extends CustomerTest  {
 
 	WebDriver driver;
+	Browser browser;
 
 	LoginPage login;
 	//CustomerPage customerpage;
 
-	@BeforeTest
+	//@BeforeTest
 	public void browser() {
 		driver = Browser.launch();
 		
 	}
 
-	@Test(priority=1)
+	//@Test(priority=1)
 	@Parameters({"Username","Password"})
 	public void page(String username,String password) throws InterruptedException {
 	      login = PageFactory.initElements(driver, LoginPage.class);
